@@ -1,6 +1,8 @@
 Revision history for Acme-CPANAuthors-CPAN-OneHundred
 =====================================================
 
+        - fix path to GitHub repo.
+
 1.01    2014-06-01
         - #96117 - documentation fixes. (Thanks to Toby Inkster).
 
