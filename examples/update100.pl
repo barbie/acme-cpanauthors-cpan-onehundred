@@ -224,6 +224,7 @@ for my $template (@files) {
 }
 
 # now store new data
+system("cp data/cpan100.csv data/cpan100.old.csv ");
 system("mv cpan100.csv data");
 
 if($options{build}) {
@@ -266,4 +267,3 @@ http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-CPAN-OneHundre
   modify it under the Artistic Licence v2.
 
 =cut
-
