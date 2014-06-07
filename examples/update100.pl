@@ -165,10 +165,15 @@ $max = (int($max/4) + 1) * 4    if($max % 4);
 $max+=2;
 
 # create lists
-for my $inx (sort {$a <=> $b} keys %new) {
+for my $inx (sort {$new{$a}{pause} cmp $new{$b}{pause}} keys %new) {
     my $pad = $max - length $new{$inx}{pause};
     push @{$tvars{LIST1}}, sprintf "    '%s'%s=> '%s',", $new{$inx}{pause}, (' ' x $pad), $new{$inx}{name};
-    push @{$tvars{LIST2}}, sprintf "  %2d.  %3d  %s%s%s", $inx, $new{$inx}{count}, $new{$inx}{pause}, (' ' x $pad), $new{$inx}{name};
+}
+
+my $cnt = 1;
+for my $inx (sort {$new{$b}{count} <=> $new{$a}{count} || $new{$a}{pause} cmp $new{$b}{pause}} keys %new) {
+    my $pad = $max - length $new{$inx}{pause};
+    push @{$tvars{LIST2}}, sprintf "  %2d.  %3d  %s%s%s", $cnt++, $new{$inx}{count}, $new{$inx}{pause}, (' ' x $pad), $new{$inx}{name};
 }
 
 # calculate copyright
