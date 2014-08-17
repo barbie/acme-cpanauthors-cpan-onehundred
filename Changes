@@ -2,6 +2,7 @@ Revision history for Acme-CPANAuthors-CPAN-OneHundred
 =====================================================
 
         - fixed license fields in META.json to be lists.
+        - added check100.pl script.
 
 1.03    2014-06-26
         [New Authors]
