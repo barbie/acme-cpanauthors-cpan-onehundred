@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:     Acme-CPANAuthors-CPAN-OneHundred
-version:  1.05
+version:  1.06
 abstract: The CPAN Authors who have 100+ distributions on CPAN
 author:
   - Barbie <barbie@cpan.org>
@@ -24,7 +24,7 @@ build_requires:
 provides:
   Acme::CPANAuthors::CPAN::OneHundred:
     file:     lib/Acme/CPANAuthors/CPAN/OneHundred.pm
-    version:  1.05
+    version:  1.06
 
 no_index:
   directory:
@@ -39,4 +39,4 @@ resources:
 meta-spec:
    version:   1.4
    url:       http://module-build.sourceforge.net/META-spec-v1.4.html
-generated_by: Hand 1.0
+generated_by: update100.pl 1.02

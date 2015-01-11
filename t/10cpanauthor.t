@@ -11,7 +11,7 @@ my $authors  = eval { Acme::CPANAuthors->new("CPAN::OneHundred") };
 is( $@, "", "creating a new Acme::CPANAuthors object with InMemoriam authors" );
 isa_ok( $authors, "Acme::CPANAuthors" );
 
-my $number = 29;
+my $number = 30;
 is( $authors->count, $number, " .. \$authors->count matches current count" );
 
 my @ids = $authors->id;
@@ -27,24 +27,24 @@ SKIP: {
     eval { $file = Acme::CPANAuthors::Utils::_cpan_packages_file() };
     skip "CPAN configuration not available", 4 if($@ || !$file);
 
-    my @distros  = $authors->distributions('SHARYANTO');
-    cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions('SHARYANTO') gives a non-empty list" );
+    my @distros  = $authors->distributions('RJBS');
+    cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions('RJBS') gives a non-empty list" );
 
     @distros = $authors->distributions('XXXXXX');
     cmp_ok( ~~@distros, "==", 0, " .. \$authors->distributions('XXXXXX') gives an empty list" );
 
-    my $name = $authors->name('SHARYANTO');
-    is($name, "Steven Haryanto", " .. \$authors->name('SHARYANTO') returns Steven Haryanto" );
+    my $name = $authors->name('RJBS');
+    is($name, "Ricardo SIGNES", " .. \$authors->name('RJBS') returns Ricardo SIGNES" );
 
 #    SKIP: {
 #        skip "en.gravatar.com is not available", 2
 #            if(pingtest('en.gravatar.com'));
 #
 #        my $url;
-#        eval { $url = $authors->avatar_url('SHARYANTO') };
+#        eval { $url = $authors->avatar_url('RJBS') };
 #        skip "en.gravatar.com is not available", 1 if($@);
 #        $url ||= '';
-#        is($url, 'http://www.gravatar.com/avatar/2459f554c069e44527716e3f35e1d0d1', ".. \$authors->avatar_url('SHARYANTO') returns a URL" );
+#        is($url, 'http://www.gravatar.com/avatar/2459f554c069e44527716e3f35e1d0d1', ".. \$authors->avatar_url('RJBS') returns a URL" );
 #
 #        eval { $url = $authors->avatar_url('BARBIE') };
 #        skip "en.gravatar.com is not available", 1 if($@);
@@ -57,9 +57,9 @@ SKIP: {
             if(pingtest('api.cpanauthors.org'));
 
         my $kwalitee;
-        eval { $kwalitee = $authors->kwalitee('SHARYANTO') };
+        eval { $kwalitee = $authors->kwalitee('RJBS') };
         skip "api.cpanauthors.org is not available", 1 if($@);
-        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('SHARYANTO')" );
+        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('RJBS')" );
     }
 }
 

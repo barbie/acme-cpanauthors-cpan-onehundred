@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.05";
+    $VERSION = "1.06";
 }
 
 use Acme::CPANAuthors::Register (
@@ -26,11 +26,12 @@ use Acme::CPANAuthors::Register (
     'LBROCARD'      => 'Leon Brocard',
     'MARCEL'        => 'Marcel Gruenauer',
     'MIYAGAWA'      => 'Tatsuhiko Miyagawa',
-    'MLEHMANN'      => 'Marc Lehmann',
     'MRAMBERG'      => 'Marcus Ramberg',
     'NUFFIN'        => 'Yuval Kogman',
+    'PERLANCAR'     => 'perlancar',
     'PEVANS'        => 'Paul Evans',
     'RJBS'          => 'Ricardo SIGNES',
+    'RSAVAGE'       => 'Ron Savage',
     'SALVA'         => 'Salvador Fandino Garcia',
     'SHARYANTO'     => 'Steven Haryanto',
     'SHLOMIF'       => 'Shlomi Fish',
@@ -70,37 +71,38 @@ currently maintaining 100 or more distributions on CPAN.
 
 =head1 THE AUTHORS
 
-   1.  343  SHARYANTO     Steven Haryanto
-   2.  275  RJBS          Ricardo SIGNES
-   3.  265  TOBYINK       Toby Inkster
+   1.  276  RJBS          Ricardo SIGNES
+   2.  274  PERLANCAR     perlancar
+   3.  266  TOBYINK       Toby Inkster
    4.  248  ADAMK         Adam Kennedy
    5.  224  MIYAGAWA      Tatsuhiko Miyagawa
-   6.  207  FLORA         Florian Ragwitz
-   7.  205  BINGOS        Chris Williams
-   8.  190  INGY          Ingy dot Net
-   9.  182  SMUELLER      Steffen Mueller
-  10.  181  TOKUHIROM     Tokuhiro Matsuno
-  11.  163  DAGOLDEN      David Golden
-  12.  158  NUFFIN        Yuval Kogman
-  13.  157  MARCEL        Marcel Gruenauer
-  14.  152  BOBTFISH      Tomas Doran
-  15.  145  ETHER         Karen Etheridge
-  16.  145  KENTNL        Kent Fredric
-  17.  124  DROLSKY       Dave Rolsky
-  18.  123  DMAKI         Daisuke Maki
-  19.  119  GUGOD         Liu Kang Min
-  20.  118  PEVANS        Paul Evans
-  21.  118  SIMON         Simon Cozens
-  22.  112  AUTRIJUS      Audrey Tang
-  23.  112  BDFOY         brian d foy
-  24.  111  BARBIE        Barbie
-  25.  105  SHLOMIF       Shlomi Fish
-  26.  103  SALVA         Salvador Fandino Garcia
-  27.  102  LBROCARD      Leon Brocard
-  28.  101  MRAMBERG      Marcus Ramberg
-  29.  100  MLEHMANN      Marc Lehmann
+   6.  212  SHARYANTO     Steven Haryanto
+   7.  209  FLORA         Florian Ragwitz
+   8.  209  INGY          Ingy dot Net
+   9.  208  BINGOS        Chris Williams
+  10.  183  SMUELLER      Steffen Mueller
+  11.  181  TOKUHIROM     Tokuhiro Matsuno
+  12.  170  DAGOLDEN      David Golden
+  13.  164  ETHER         Karen Etheridge
+  14.  158  NUFFIN        Yuval Kogman
+  15.  157  MARCEL        Marcel Gruenauer
+  16.  154  KENTNL        Kent Fredric
+  17.  152  BOBTFISH      Tomas Doran
+  18.  129  DROLSKY       Dave Rolsky
+  19.  125  PEVANS        Paul Evans
+  20.  123  DMAKI         Daisuke Maki
+  21.  120  GUGOD         Liu Kang Min
+  22.  118  SIMON         Simon Cozens
+  23.  113  BARBIE        Barbie
+  24.  112  AUTRIJUS      Audrey Tang
+  25.  106  SHLOMIF       Shlomi Fish
+  26.  104  SALVA         Salvador Fandino Garcia
+  27.  102  BDFOY         brian d foy
+  28.  102  LBROCARD      Leon Brocard
+  29.  101  MRAMBERG      Marcus Ramberg
+  30.  101  RSAVAGE       Ron Savage
 
-List last updated: 2014-10-04T05:38:47
+List last updated: 2015-01-09T05:57:07
 
 =head1 MAINTENANCE
 
@@ -151,7 +153,7 @@ Thanks to Kenichi Ishigaki for writing C<Acme::CPANAuthors>.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2014 Barbie for Miss Barbell Productions.
+  Copyright 2014-2015 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
