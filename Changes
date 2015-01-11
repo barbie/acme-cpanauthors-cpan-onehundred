@@ -1,6 +1,8 @@
 Revision history for Acme-CPANAuthors-CPAN-OneHundred
 =====================================================
 
+        - allow local data file in update script.
+
         [New Authors]
         - PERLANCAR, RSAVAGE
 
