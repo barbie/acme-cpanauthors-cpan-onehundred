@@ -1,6 +1,7 @@
 Revision history for Acme-CPANAuthors-CPAN-OneHundred
 =====================================================
 
+1.06    2015-01-12
         - allow local data file in update script.
 
         [New Authors]
