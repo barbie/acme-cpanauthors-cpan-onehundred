@@ -1,6 +1,14 @@
 Revision history for Acme-CPANAuthors-CPAN-OneHundred
 =====================================================
 
+1.07    2015-02-20
+        [New Authors]
+        - SKIM, MLEHMANN
+
+        [Updated Counts]
+        - PERLANCAR, SHARYANTO, DAGOLDEN, ETHER, KENTNL, DROLSKY, PEVANS, GUGOD,
+        RSAVAGE
+
 1.06    2015-01-12
         - allow local data file in update script.
 
@@ -12,7 +20,7 @@ Revision history for Acme-CPANAuthors-CPAN-OneHundred
 
         [Updated Counts]
         - RJBS, TOBYINK, SHARYANTO, FLORA, INGY, BINGOS, SMUELLER, DAGOLDEN,
-        ETHER, KENTNL, DROLSKY, PEVANS, GUGOD, BARBIE, SHLOMIF, SALVA, BDFOY
+        - ETHER, KENTNL, DROLSKY, PEVANS, GUGOD, BARBIE, SHLOMIF, SALVA, BDFOY
 
 1.05    2014-10-04
         [Updated Counts]

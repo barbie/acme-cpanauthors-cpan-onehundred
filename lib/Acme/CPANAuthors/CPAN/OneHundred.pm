@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.06";
+    $VERSION = "1.07";
 }
 
 use Acme::CPANAuthors::Register (
@@ -26,6 +26,7 @@ use Acme::CPANAuthors::Register (
     'LBROCARD'      => 'Leon Brocard',
     'MARCEL'        => 'Marcel Gruenauer',
     'MIYAGAWA'      => 'Tatsuhiko Miyagawa',
+    'MLEHMANN'      => 'Marc Lehmann',
     'MRAMBERG'      => 'Marcus Ramberg',
     'NUFFIN'        => 'Yuval Kogman',
     'PERLANCAR'     => 'perlancar',
@@ -36,6 +37,7 @@ use Acme::CPANAuthors::Register (
     'SHARYANTO'     => 'Steven Haryanto',
     'SHLOMIF'       => 'Shlomi Fish',
     'SIMON'         => 'Simon Cozens',
+    'SKIM'          => 'Michal Spacek',
     'SMUELLER'      => 'Steffen Mueller',
     'TOBYINK'       => 'Toby Inkster',
     'TOKUHIROM'     => 'Tokuhiro Matsuno',
@@ -71,38 +73,40 @@ currently maintaining 100 or more distributions on CPAN.
 
 =head1 THE AUTHORS
 
-   1.  276  RJBS          Ricardo SIGNES
-   2.  274  PERLANCAR     perlancar
+   1.  280  PERLANCAR     perlancar
+   2.  276  RJBS          Ricardo SIGNES
    3.  266  TOBYINK       Toby Inkster
    4.  248  ADAMK         Adam Kennedy
    5.  224  MIYAGAWA      Tatsuhiko Miyagawa
-   6.  212  SHARYANTO     Steven Haryanto
-   7.  209  FLORA         Florian Ragwitz
-   8.  209  INGY          Ingy dot Net
+   6.  209  FLORA         Florian Ragwitz
+   7.  209  INGY          Ingy dot Net
+   8.  209  SHARYANTO     Steven Haryanto
    9.  208  BINGOS        Chris Williams
   10.  183  SMUELLER      Steffen Mueller
   11.  181  TOKUHIROM     Tokuhiro Matsuno
-  12.  170  DAGOLDEN      David Golden
-  13.  164  ETHER         Karen Etheridge
+  12.  171  DAGOLDEN      David Golden
+  13.  165  ETHER         Karen Etheridge
   14.  158  NUFFIN        Yuval Kogman
   15.  157  MARCEL        Marcel Gruenauer
-  16.  154  KENTNL        Kent Fredric
+  16.  155  KENTNL        Kent Fredric
   17.  152  BOBTFISH      Tomas Doran
-  18.  129  DROLSKY       Dave Rolsky
-  19.  125  PEVANS        Paul Evans
+  18.  132  DROLSKY       Dave Rolsky
+  19.  126  PEVANS        Paul Evans
   20.  123  DMAKI         Daisuke Maki
-  21.  120  GUGOD         Liu Kang Min
+  21.  122  GUGOD         Liu Kang Min
   22.  118  SIMON         Simon Cozens
   23.  113  BARBIE        Barbie
   24.  112  AUTRIJUS      Audrey Tang
   25.  106  SHLOMIF       Shlomi Fish
   26.  104  SALVA         Salvador Fandino Garcia
-  27.  102  BDFOY         brian d foy
-  28.  102  LBROCARD      Leon Brocard
-  29.  101  MRAMBERG      Marcus Ramberg
-  30.  101  RSAVAGE       Ron Savage
+  27.  103  SKIM          Michal Spacek
+  28.  102  BDFOY         brian d foy
+  29.  102  LBROCARD      Leon Brocard
+  30.  102  RSAVAGE       Ron Savage
+  31.  101  MRAMBERG      Marcus Ramberg
+  32.  100  MLEHMANN      Marc Lehmann
 
-List last updated: 2015-01-09T05:57:07
+List last updated: 2015-01-24T17:56:48
 
 =head1 MAINTENANCE
 
