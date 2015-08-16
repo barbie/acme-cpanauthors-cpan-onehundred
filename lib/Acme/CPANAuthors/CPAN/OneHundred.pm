@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.09";
+    $VERSION = "1.10";
 }
 
 use Acme::CPANAuthors::Register (
@@ -26,7 +26,7 @@ use Acme::CPANAuthors::Register (
     'LBROCARD'      => 'Leon Brocard',
     'MARCEL'        => 'Marcel Gruenauer',
     'MIYAGAWA'      => 'Tatsuhiko Miyagawa',
-    'MLEHMANN'      => 'Marc Lehmann',
+    'MLEHMANN'      => '???',
     'MRAMBERG'      => 'Marcus Ramberg',
     'NEILB'         => 'Neil Bowers',
     'NUFFIN'        => 'Yuval Kogman',
@@ -74,41 +74,41 @@ currently maintaining 100 or more distributions on CPAN.
 
 =head1 THE AUTHORS
 
-   1.  376  PERLANCAR     perlancar
-   2.  280  RJBS          Ricardo SIGNES
+   1.  445  PERLANCAR     perlancar
+   2.  286  RJBS          Ricardo SIGNES
    3.  266  TOBYINK       Toby Inkster
    4.  248  ADAMK         Adam Kennedy
-   5.  230  MIYAGAWA      Tatsuhiko Miyagawa
-   6.  213  INGY          Ingy dot Net
-   7.  209  FLORA         Florian Ragwitz
-   8.  208  BINGOS        Chris Williams
-   9.  186  SHARYANTO     Steven Haryanto
-  10.  183  SMUELLER      Steffen Mueller
-  11.  181  TOKUHIROM     ???
-  12.  176  ETHER         Karen Etheridge
-  13.  169  DAGOLDEN      David Golden
-  14.  159  KENTNL        Kent Fredric
+   5.  233  MIYAGAWA      Tatsuhiko Miyagawa
+   6.  214  INGY          Ingy dot Net
+   7.  210  FLORA         Florian Ragwitz
+   8.  209  BINGOS        Chris Williams
+   9.  195  ETHER         Karen Etheridge
+  10.  185  SMUELLER      Steffen Mueller
+  11.  182  SHARYANTO     Steven Haryanto
+  12.  181  TOKUHIROM     ???
+  13.  170  DAGOLDEN      David Golden
+  14.  163  KENTNL        Kent Fredric
   15.  158  NUFFIN        Yuval Kogman
   16.  157  MARCEL        Marcel Gruenauer
   17.  152  BOBTFISH      Tomas Doran
-  18.  132  DROLSKY       Dave Rolsky
-  19.  128  PEVANS        Paul Evans
-  20.  123  DMAKI         Daisuke Maki
+  18.  136  DROLSKY       Dave Rolsky
+  19.  133  PEVANS        Paul Evans
+  20.  122  DMAKI         Daisuke Maki
   21.  122  GUGOD         Liu Kang Min
-  22.  118  BARBIE        Barbie
-  23.  118  SIMON         Simon Cozens
-  24.  118  SKIM          Michal Spacek
+  22.  119  SKIM          Michal Spacek
+  23.  118  BARBIE        Barbie
+  24.  118  SIMON         Simon Cozens
   25.  112  AUTRIJUS      Audrey Tang
-  26.  107  RSAVAGE       Ron Savage
-  27.  107  SHLOMIF       Shlomi Fish
-  28.  105  BDFOY         brian d foy
-  29.  104  NEILB         Neil Bowers
+  26.  110  NEILB         Neil Bowers
+  27.  109  RSAVAGE       Ron Savage
+  28.  109  SHLOMIF       Shlomi Fish
+  29.  105  BDFOY         brian d foy
   30.  104  SALVA         Salvador Fandino Garcia
-  31.  101  LBROCARD      Leon Brocard
-  32.  101  MLEHMANN      Marc Lehmann
+  31.  103  MLEHMANN      ???
+  32.  101  LBROCARD      Leon Brocard
   33.  101  MRAMBERG      Marcus Ramberg
 
-List last updated: 2015-05-23T21:14:05
+List last updated: 2015-08-16T14:11:59
 
 =head1 MAINTENANCE
 
