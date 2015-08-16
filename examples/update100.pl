@@ -214,6 +214,7 @@ $content = '';
 for my $line (@content) {
     $line =~ s/^([\d.]+)\s+(.*?)$/$1    $2/;
     $line =~ s/^\s+(.*?)/        $1/;
+    $line =~ s/^\s+(.*?)/        - $1/ unless($line =~ /^\s+[\[\-]/);
     $content .= "$line\n";
 }
 print $fh $content;
