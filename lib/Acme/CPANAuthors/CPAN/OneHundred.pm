@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.08";
+    $VERSION = "1.09";
 }
 
 use Acme::CPANAuthors::Register (
@@ -41,7 +41,7 @@ use Acme::CPANAuthors::Register (
     'SKIM'          => 'Michal Spacek',
     'SMUELLER'      => 'Steffen Mueller',
     'TOBYINK'       => 'Toby Inkster',
-    'TOKUHIROM'     => 'Tokuhiro Matsuno',
+    'TOKUHIROM'     => '???',
 
 );
 
@@ -74,41 +74,41 @@ currently maintaining 100 or more distributions on CPAN.
 
 =head1 THE AUTHORS
 
-   1.  318  PERLANCAR     perlancar
-   2.  278  RJBS          Ricardo SIGNES
+   1.  376  PERLANCAR     perlancar
+   2.  280  RJBS          Ricardo SIGNES
    3.  266  TOBYINK       Toby Inkster
    4.  248  ADAMK         Adam Kennedy
-   5.  226  MIYAGAWA      Tatsuhiko Miyagawa
-   6.  212  INGY          Ingy dot Net
+   5.  230  MIYAGAWA      Tatsuhiko Miyagawa
+   6.  213  INGY          Ingy dot Net
    7.  209  FLORA         Florian Ragwitz
    8.  208  BINGOS        Chris Williams
-   9.  195  SHARYANTO     Steven Haryanto
+   9.  186  SHARYANTO     Steven Haryanto
   10.  183  SMUELLER      Steffen Mueller
-  11.  181  TOKUHIROM     Tokuhiro Matsuno
-  12.  172  DAGOLDEN      David Golden
-  13.  168  ETHER         Karen Etheridge
-  14.  158  NUFFIN        Yuval Kogman
-  15.  157  KENTNL        Kent Fredric
+  11.  181  TOKUHIROM     ???
+  12.  176  ETHER         Karen Etheridge
+  13.  169  DAGOLDEN      David Golden
+  14.  159  KENTNL        Kent Fredric
+  15.  158  NUFFIN        Yuval Kogman
   16.  157  MARCEL        Marcel Gruenauer
   17.  152  BOBTFISH      Tomas Doran
   18.  132  DROLSKY       Dave Rolsky
-  19.  127  PEVANS        Paul Evans
+  19.  128  PEVANS        Paul Evans
   20.  123  DMAKI         Daisuke Maki
   21.  122  GUGOD         Liu Kang Min
-  22.  118  SIMON         Simon Cozens
-  23.  115  BARBIE        Barbie
-  24.  114  SKIM          Michal Spacek
+  22.  118  BARBIE        Barbie
+  23.  118  SIMON         Simon Cozens
+  24.  118  SKIM          Michal Spacek
   25.  112  AUTRIJUS      Audrey Tang
   26.  107  RSAVAGE       Ron Savage
   27.  107  SHLOMIF       Shlomi Fish
-  28.  104  SALVA         Salvador Fandino Garcia
-  29.  103  BDFOY         brian d foy
-  30.  102  LBROCARD      Leon Brocard
-  31.  101  MRAMBERG      Marcus Ramberg
-  32.  100  MLEHMANN      Marc Lehmann
-  33.  100  NEILB         Neil Bowers
+  28.  105  BDFOY         brian d foy
+  29.  104  NEILB         Neil Bowers
+  30.  104  SALVA         Salvador Fandino Garcia
+  31.  101  LBROCARD      Leon Brocard
+  32.  101  MLEHMANN      Marc Lehmann
+  33.  101  MRAMBERG      Marcus Ramberg
 
-List last updated: 2015-03-22T11:39:41
+List last updated: 2015-05-23T21:14:05
 
 =head1 MAINTENANCE
 
