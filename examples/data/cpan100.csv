@@ -1,35 +1,37 @@
-# DATE: 2015-08-16T14:11:59
+# DATE: 2016-04-22T05:57:08
 #Pause,Count,Name
-PERLANCAR,445,perlancar
-RJBS,286,Ricardo SIGNES
+PERLANCAR,810,perlancar
+PSIXDISTS,479,Perl 6 Modules
+RJBS,293,Ricardo SIGNES
 TOBYINK,266,Toby Inkster
 ADAMK,248,Adam Kennedy
-MIYAGAWA,233,Tatsuhiko Miyagawa
+MIYAGAWA,234,Tatsuhiko Miyagawa
 INGY,214,Ingy dot Net
+ETHER,212,Karen Etheridge
+BINGOS,211,Chris Williams
 FLORA,210,Florian Ragwitz
-BINGOS,209,Chris Williams
-ETHER,195,Karen Etheridge
+JGNI,196,John Imrie
 SMUELLER,185,Steffen Mueller
-SHARYANTO,182,Steven Haryanto
 TOKUHIROM,181,???
-DAGOLDEN,170,David Golden
-KENTNL,163,Kent Fredric
+DAGOLDEN,171,David Golden
+KENTNL,170,Kent Fredric
 NUFFIN,158,Yuval Kogman
-MARCEL,157,Marcel Gruenauer
 BOBTFISH,152,Tomas Doran
-DROLSKY,136,Dave Rolsky
-PEVANS,133,Paul Evans
+MARCEL,147,???
+PEVANS,146,Paul Evans
+DROLSKY,140,Dave Rolsky
+SKIM,135,Michal Spacek
 DMAKI,122,Daisuke Maki
 GUGOD,122,Liu Kang Min
-SKIM,119,Michal Spacek
-BARBIE,118,Barbie
+NEILB,121,Neil Bowers
 SIMON,118,Simon Cozens
+BARBIE,117,Barbie
+SHLOMIF,117,Shlomi Fish
+RSAVAGE,113,Ron Savage
 AUTRIJUS,112,Audrey Tang
-NEILB,110,Neil Bowers
-SHLOMIF,109,Shlomi Fish
-RSAVAGE,109,Ron Savage
-BDFOY,105,brian d foy
-SALVA,104,Salvador Fandino Garcia
-MLEHMANN,103,???
-MRAMBERG,101,Marcus Ramberg
+PLICEASE,112,Graham Ollis
+SALVA,107,Salvador Fandino Garcia
+BDFOY,106,brian d foy
+MLEHMANN,104,???
+MRAMBERG,102,Marcus Ramberg
 LBROCARD,101,Leon Brocard

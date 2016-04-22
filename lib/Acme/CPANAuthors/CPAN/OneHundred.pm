@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.10";
+    $VERSION = "1.11";
 }
 
 use Acme::CPANAuthors::Register (
@@ -22,9 +22,10 @@ use Acme::CPANAuthors::Register (
     'FLORA'         => 'Florian Ragwitz',
     'GUGOD'         => 'Liu Kang Min',
     'INGY'          => 'Ingy dot Net',
+    'JGNI'          => 'John Imrie',
     'KENTNL'        => 'Kent Fredric',
     'LBROCARD'      => 'Leon Brocard',
-    'MARCEL'        => 'Marcel Gruenauer',
+    'MARCEL'        => '???',
     'MIYAGAWA'      => 'Tatsuhiko Miyagawa',
     'MLEHMANN'      => '???',
     'MRAMBERG'      => 'Marcus Ramberg',
@@ -32,10 +33,11 @@ use Acme::CPANAuthors::Register (
     'NUFFIN'        => 'Yuval Kogman',
     'PERLANCAR'     => 'perlancar',
     'PEVANS'        => 'Paul Evans',
+    'PLICEASE'      => 'Graham Ollis',
+    'PSIXDISTS'     => 'Perl 6 Modules',
     'RJBS'          => 'Ricardo SIGNES',
     'RSAVAGE'       => 'Ron Savage',
     'SALVA'         => 'Salvador Fandino Garcia',
-    'SHARYANTO'     => 'Steven Haryanto',
     'SHLOMIF'       => 'Shlomi Fish',
     'SIMON'         => 'Simon Cozens',
     'SKIM'          => 'Michal Spacek',
@@ -74,41 +76,43 @@ currently maintaining 100 or more distributions on CPAN.
 
 =head1 THE AUTHORS
 
-   1.  445  PERLANCAR     perlancar
-   2.  286  RJBS          Ricardo SIGNES
-   3.  266  TOBYINK       Toby Inkster
-   4.  248  ADAMK         Adam Kennedy
-   5.  233  MIYAGAWA      Tatsuhiko Miyagawa
-   6.  214  INGY          Ingy dot Net
-   7.  210  FLORA         Florian Ragwitz
-   8.  209  BINGOS        Chris Williams
-   9.  195  ETHER         Karen Etheridge
-  10.  185  SMUELLER      Steffen Mueller
-  11.  182  SHARYANTO     Steven Haryanto
-  12.  181  TOKUHIROM     ???
-  13.  170  DAGOLDEN      David Golden
-  14.  163  KENTNL        Kent Fredric
-  15.  158  NUFFIN        Yuval Kogman
-  16.  157  MARCEL        Marcel Gruenauer
+   1.  810  PERLANCAR     perlancar
+   2.  479  PSIXDISTS     Perl 6 Modules
+   3.  293  RJBS          Ricardo SIGNES
+   4.  266  TOBYINK       Toby Inkster
+   5.  248  ADAMK         Adam Kennedy
+   6.  234  MIYAGAWA      Tatsuhiko Miyagawa
+   7.  214  INGY          Ingy dot Net
+   8.  212  ETHER         Karen Etheridge
+   9.  211  BINGOS        Chris Williams
+  10.  210  FLORA         Florian Ragwitz
+  11.  196  JGNI          John Imrie
+  12.  185  SMUELLER      Steffen Mueller
+  13.  181  TOKUHIROM     ???
+  14.  171  DAGOLDEN      David Golden
+  15.  170  KENTNL        Kent Fredric
+  16.  158  NUFFIN        Yuval Kogman
   17.  152  BOBTFISH      Tomas Doran
-  18.  136  DROLSKY       Dave Rolsky
-  19.  133  PEVANS        Paul Evans
-  20.  122  DMAKI         Daisuke Maki
-  21.  122  GUGOD         Liu Kang Min
-  22.  119  SKIM          Michal Spacek
-  23.  118  BARBIE        Barbie
-  24.  118  SIMON         Simon Cozens
-  25.  112  AUTRIJUS      Audrey Tang
-  26.  110  NEILB         Neil Bowers
-  27.  109  RSAVAGE       Ron Savage
-  28.  109  SHLOMIF       Shlomi Fish
-  29.  105  BDFOY         brian d foy
-  30.  104  SALVA         Salvador Fandino Garcia
-  31.  103  MLEHMANN      ???
-  32.  101  LBROCARD      Leon Brocard
-  33.  101  MRAMBERG      Marcus Ramberg
+  18.  147  MARCEL        ???
+  19.  146  PEVANS        Paul Evans
+  20.  140  DROLSKY       Dave Rolsky
+  21.  135  SKIM          Michal Spacek
+  22.  122  DMAKI         Daisuke Maki
+  23.  122  GUGOD         Liu Kang Min
+  24.  121  NEILB         Neil Bowers
+  25.  118  SIMON         Simon Cozens
+  26.  117  BARBIE        Barbie
+  27.  117  SHLOMIF       Shlomi Fish
+  28.  113  RSAVAGE       Ron Savage
+  29.  112  AUTRIJUS      Audrey Tang
+  30.  112  PLICEASE      Graham Ollis
+  31.  107  SALVA         Salvador Fandino Garcia
+  32.  106  BDFOY         brian d foy
+  33.  104  MLEHMANN      ???
+  34.  102  MRAMBERG      Marcus Ramberg
+  35.  101  LBROCARD      Leon Brocard
 
-List last updated: 2015-08-16T14:11:59
+List last updated: 2016-04-22T05:57:08
 
 =head1 MAINTENANCE
 
@@ -159,7 +163,7 @@ Thanks to Kenichi Ishigaki for writing C<Acme::CPANAuthors>.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2014-2015 Barbie for Miss Barbell Productions.
+  Copyright 2014-2016 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
