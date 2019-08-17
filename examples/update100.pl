@@ -90,7 +90,7 @@ if(my $fh = IO::File->new($file,'r')) {
     while(<$fh>) {
         s/\s+$//;
         next    if(!$_ or $_ =~ /^#/);
-        my ($pause,$cnt,$name) = split(',');
+        my ($pause,$cnt,$name) = split(/,/);
         next unless($pause);
 
         $inx++;
@@ -115,7 +115,7 @@ while(<$fh>) {
     }
 
     next    if(!$_ or $_ =~ /^#/);
-    my ($pause,$cnt,$name) = split(',');
+    my ($pause,$cnt,$name) = split(/,/);
     next unless($pause);
 
     $inx++;
@@ -210,7 +210,7 @@ $changes->releases( @releases );
 
 $fh = IO::File->new($file,'w+') or die "Cannot open file [$file]: $!\n";
 my $content = $changes->serialize;
-my @content = split("\n",$content);
+my @content = split(/\n/,$content);
 $content = '';
 for my $line (@content) {
     $line =~ s/^([\d.]+)\s+(.*?)$/$1    $2/;
